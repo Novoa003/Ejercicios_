@@ -33,22 +33,22 @@ public class Ejercicio_3 extends AppCompatActivity {
         btnMen = findViewById(R.id.btnMen);
 
         preguntas = new Pregunta[]{
-                new Pregunta("¿Cuál es la capital de Colombia?",
-                        new String[]{"Bogotá", "Medellín", "Cali", "Barranquilla"}, 0),
+                new Pregunta("¿Cuál es el plato típico de Colombia que consiste en una sopa espesa hecha a base de papas y guiso de pollo o carne?",
+                        new String[]{"Ajiaco", "Cuchuco", "Maruchan", "Sancocho"}, 0),
 
-                new Pregunta("¿Cual es el unico mamifero que pone huevos?",
-                        new String[]{"Ornitorrinco", "Ballena", "Gallina"}, 2),
+                new Pregunta("¿Cuál es el baile tradicional colombiano que se caracteriza por movimientos rápidos de los pies y las caderas?",
+                        new String[]{"Cumbia", "Salsa", "Ballenato"}, 2),
 
-                new Pregunta("¿Cual es la figura trigonometrica mas estable?",
-                        new String[]{"Triangulo", "Cuadrado", "Circulo"}, 0),
+                new Pregunta("¿Cuál es el río más largo de Colombia que atraviesa varios países de América del Sur, incluyendo Colombia, Brasil y Perú?",
+                        new String[]{"Río Amazonas", " Río Orinoco", "Río Cauca"}, 0),
 
-                new Pregunta("¿Super heroe con el poder de la speed force?",
-                        new String[]{"Flash", "Batman", "Iron Man"}, 0),
+                new Pregunta("¿Quién es el famoso pintor y escultor colombiano conocido por su estilo único y colorido, y es considerado uno de los artistas más importantes de América Latina?",
+                        new String[]{" Fernando Botero", "Diego Rivera", " Frida Kahlo"}, 0),
 
-                        new Pregunta("Caballeros del lado luminoso en Star Wars:",
-                        new String[]{"Jedis", "Siths", "Mandalorians"}, 1),
-                new Pregunta("¿Cual es el villano de la saga señor de los anillos?",
-                        new String[]{"Sauron", "Voldemort", "Spiderman"}, 2),
+                        new Pregunta("¿Qué famoso escritor colombiano ganó el Premio Nobel de Literatura en 1982?",
+                        new String[]{"Gabriel García Márquez", "Jorge Luis Borges", "Pablo Neruda"}, 1),
+                new Pregunta("¿Cuál es la ciudad colombiana conocida por su arquitectura colonial, especialmente por las coloridas casas en la ladera de una montaña?",
+                        new String[]{"Cartagena", " Medellín", "Cali"}, 2),
 
 
 

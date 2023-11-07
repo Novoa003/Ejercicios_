@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Taller 1</string>
-    <string name="Autor">Autor: Milton Stiven Gonzalez Pinzon</string>
     <string name="tvTitulo_1">Calcular edad</string>
     <string name="tvED">Edad</string>
     <string name="btnCalcularEdad">Calcular edad</string>
@@ -14,12 +13,12 @@
     <string name="etDireccion">Dirección</string>
     <string name="btnSiguiente2">Siguiente</string>
     <string name="tvSeleccionProductos">Seleccione los productos</string>
-    <string name="chCuaderno">Cuaderno</string>
-    <string name="chLapiz">Lapiz</string>
-    <string name="chBorrador">Borrador</string>
-    <string name="chEsfero">Esferos</string>
-    <string name="chCorrector">Corrector</string>
-    <string name="chMarcador">Marcador</string>
+    <string name="chCamisa">Camisa</string>
+    <string name="chPantalon">Pantalon</string>
+    <string name="chChaqueta">Chaqueta</string>
+    <string name="chBuso">Buso</string>
+    <string name="chCorbata">Corbata</string>
+    <string name="chZapato">Zapato</string>
     <string name="tvTitulo_4">Calcualdora Masa corporal</string>
     <string name="tvPeso_Enunciado">Ingresa tu peso</string>
     <string name="tvAltura_Enunciado">Ingresa tu altura</string>

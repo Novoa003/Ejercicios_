@@ -13,12 +13,12 @@ import java.util.List;
 
 public class Ejercicio_21 extends AppCompatActivity {
 
-    private CheckBox chLapiz;
-    private CheckBox chCorrector;
-    private CheckBox chCuaderno;
-    private CheckBox chBorrador;
-    private CheckBox chEsfero;
-    private CheckBox chMarcador;
+    private CheckBox chPantalon;
+    private CheckBox chCorbata;
+    private CheckBox chCamisa;
+    private CheckBox chChaqueta;
+    private CheckBox chBuso;
+    private CheckBox chZapato;
     private Button btnSiguiente;
 
     private String nombres;
@@ -56,35 +56,35 @@ public class Ejercicio_21 extends AppCompatActivity {
     }
 
     private void Iniciar() {
-        chCuaderno = findViewById(R.id.chCuaderno);
-        chLapiz = findViewById(R.id.chLapiz);
-        chBorrador = findViewById(R.id.chBorrador);
-        chEsfero = findViewById(R.id.chEsfero);
-        chCorrector = findViewById(R.id.chCorrector);
-        chMarcador = findViewById(R.id.chMarcador);
+        chCamisa = findViewById(R.id.chCamisa);
+        chPantalon = findViewById(R.id.chPantalon);
+        chChaqueta = findViewById(R.id.chChaqueta);
+        chBuso = findViewById(R.id.chBuso);
+        chCorbata = findViewById(R.id.chCorbata);
+        chZapato= findViewById(R.id.chZapato);
         btnSiguiente = findViewById(R.id.btnSG);
     }
 
     private String ObtenerProductosSeleccionados() {
         StringBuilder seleccionProductos = new StringBuilder();
 
-        if (chLapiz.isChecked()) {
-            seleccionProductos.append("Lapiz, ");
+        if (chPantalon.isChecked()) {
+            seleccionProductos.append("Pantalon, ");
         }
-        if (chBorrador.isChecked()) {
-            seleccionProductos.append("Borrador, ");
+        if (chChaqueta.isChecked()) {
+            seleccionProductos.append("Chaqueta, ");
         }
-        if (chCorrector.isChecked()) {
-            seleccionProductos.append("Corrector, ");
+        if (chCorbata.isChecked()) {
+            seleccionProductos.append("Corbata, ");
         }
-        if (chEsfero.isChecked()) {
-            seleccionProductos.append("Esfero, ");
+        if (chBuso.isChecked()) {
+            seleccionProductos.append("Buso, ");
         }
-        if (chMarcador.isChecked()) {
-            seleccionProductos.append("Marcador, ");
+        if (chZapato.isChecked()) {
+            seleccionProductos.append("Zapato, ");
         }
-        if (chCuaderno.isChecked()) {
-            seleccionProductos.append("Cuaderno, ");
+        if (chCamisa.isChecked()) {
+            seleccionProductos.append("Camisa, ");
         }
 
 
